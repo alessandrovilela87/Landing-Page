@@ -47,11 +47,14 @@ header.cabecalho {
   border-bottom: 1px solid var(--borda);
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 0 clamp(16px, 5vw, 80px);
   position: sticky;
   top: 0;
   z-index: 100;
+}
+header img{ 
+  width: 100px;
 }
 
 nav.cabecalho-menu {
